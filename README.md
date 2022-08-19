@@ -8,6 +8,14 @@ We provide a hosted version of this project on [`https://notion-api.splitbee.io`
 
 _Use with caution. This is based on the private Notion API. We can not gurantee it will stay stable._
 
+## Installation
+```
+asdf plugin-add rust https://github.com/asdf-community/asdf-rust.git
+asdf install rust 1.63.0
+asdf global rust 1.63.0
+cargo install wrangler
+```
+
 ## Features
 
 🍭 **Easy to use** – Receive Notion data with a single GET request
